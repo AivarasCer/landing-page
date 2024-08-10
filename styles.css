@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 16#px;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 16px
+}
+
+a {
+  text-decoration: none;
+}
