@@ -31,3 +31,41 @@ a {
   color: #cfd2d7;
   text-decoration: none;
 }
+
+.main {
+    background-color: #1F2937;
+    display: flex;
+    padding: 100px 180px;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+
+.main .hero {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.main .text {
+    font-size: 18px;
+    color: #cfd2d7;
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+
+.main .button {
+    color: #FFFFFF;
+    background-color: #3b82f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    padding: 10px;
+    font-weight: bolder;
+    border-radius: 15px;
+}
+
+.main .img-container img {
+    width: 420px;
+    height: auto;
+}
