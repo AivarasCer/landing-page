@@ -1,22 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+}
+
 .header {
-    display: flex;
-    justify-content: space-between;
-    padding: 16#px;
-}
-
-.logo {
+    background-color: #1F2937;
     color: #F9FAF8;
-    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 180px;
 }
 
-ul {
+.header .logo {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.header .links ul {
   display: flex;
   list-style: none;
   margin: 0;
   padding: 0;
-  gap: 16px
+  gap: 20px;
+  font-size: 16px;
 }
 
 a {
+  color: #cfd2d7;
   text-decoration: none;
 }
