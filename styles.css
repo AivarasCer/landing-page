@@ -86,7 +86,7 @@ a {
     margin-bottom: 32px;
 }
 
-.info {
+.info-container .info {
     display: flex;
     padding: 50px;
     gap: 50px;
@@ -105,5 +105,12 @@ a {
 }
 
 .one, .two, .three, .four {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    max-width: 200px;
 }
+
 
